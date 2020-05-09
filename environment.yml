@@ -10,6 +10,7 @@ dependencies:
 - scipy
 - seaborn
 - bokeh
+- plotly
 
 
 
