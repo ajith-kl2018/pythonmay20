@@ -9,5 +9,9 @@ def home():
 def test():
    return render_template('test.html')
 
+@app.route('/static')
+def api():
+   return "<h1> Welcome to Static text </h1> "
+
 if __name__ == '__main__':
    app.run()
