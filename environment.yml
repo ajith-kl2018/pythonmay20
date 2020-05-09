@@ -1,0 +1,16 @@
+name: covid19
+channels:
+- conda-forge
+- defaults
+- anaconda
+dependencies:
+- python=3.7
+- jupyter
+- matplotlib
+- pandas
+- scipy
+- seaborn
+- bokeh
+
+
+
